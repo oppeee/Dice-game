@@ -25,7 +25,7 @@ class DiceGameApplication{
         String username = scan.next();
 
         System.out.println("Hello, " + username);
-        
+            
         return username;
     }
 
@@ -35,7 +35,7 @@ class DiceGameApplication{
         String username = game.Greeting();
         int total = game.roll_dice();
 
-        if(total > 8) System.out.println("You win!");
-        else System.out.println("You lost!");
+        if(total > 7) System.out.println(username + " win!");
+        else System.out.println(username + " lost!");
     }
 }
